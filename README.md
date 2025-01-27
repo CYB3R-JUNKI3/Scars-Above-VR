@@ -1,5 +1,5 @@
 # Scars-Above-VR
-6DOF Motion Controller UEVR Profile + VR Fix Mod
+6DOF Motion Controller UEVR Profile + 1st Person Mod + VR Fix Mod
 ## Requires UEVR 1.05 (or Nightly)
 https://github.com/praydog/UEVR
 
