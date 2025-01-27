@@ -58,7 +58,7 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 
 
 ## Weapon Melee Gesture
-1. Swing in ANY direction
+1. Swing your Right Controller in ANY direction
 2. Your knife will appear (in your Right Hand) and melee will trigger.
 ----
 
