@@ -34,7 +34,7 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
     (Below is for folks who don't want to click their Thumb-Sticks) 
 
 - Sprint mapped to Right Thumb-Stick ↑ 
-- Scan mapped to Right Thumb-Stick ↓
+- Pulse Scan mapped to Right Thumb-Stick ↓
 ----
 
 
@@ -98,6 +98,11 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 :question: _I can sometimes see objects through the floor and walls_
 
 :bulb: I am aware of this, it is to do with occlusion and a side effect of converting to 1st person, will update when a fix is found.
+
+---
+:question: _My weapon disappears when my back is against a wall_
+
+:bulb: I am aware of this, it is camera related and a side effect of converting to 1st person, will update when a fix is found.
 
 ---
 :question: _Aiming is a bit weird when firing downwards_
