@@ -95,12 +95,12 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 
 
 ## Important Notes / FAQ's
-:question: _I cam sometimes see object through the floor and walls_
+:question: _I can sometimes see objects through the floor and walls_
 
 :bulb: I am aware of this, it is to do with occlusion and a side effect of converting to 1st person, will update when a fix is found.
 
 ---
-:question: _Aiming is a bit weird wwhen firing downwards_
+:question: _Aiming is a bit weird when firing downwards_
 
 :bulb: I am aware of this, will update when a fix is found.
 
