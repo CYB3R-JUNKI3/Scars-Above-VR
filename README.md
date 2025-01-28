@@ -12,6 +12,7 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 
 
 # IMPORTANT
+## If you were using my old 6DOF profile you NEED to remove it first
 ## The following UEVR settings are controlled by the Mod
 - Aim Method
 - D-Pad Shifting Method
