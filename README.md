@@ -13,6 +13,20 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 
 # IMPORTANT
 ## If you were using my old 6DOF profile you NEED to remove it first
+<details>
+
+<summary>How do I remove the old profile </summary>
+
+1)  Open UEVR app and click "Open Global Dir" 
+
+2)  An "Appdata" folder will open containing all of your UEVR Profiles 
+
+3)  Delete any folder named "Project-Win64-Shipping" (this includes any that may be called "Project-Win64-Shipping(1)") 
+
+4)  Close the folder and Import the new Profile 
+
+</details>
+
 ## The following UEVR settings are controlled by the Mod
 - Aim Method
 - D-Pad Shifting Method
