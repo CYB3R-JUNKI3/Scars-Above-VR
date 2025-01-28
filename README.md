@@ -33,8 +33,8 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 
     (Below is for folks who don't want to click their Thumb-Sticks) 
 
-- Sprint mapped to Right Thumb-Stick ↑ 
-- Pulse Scan mapped to Right Thumb-Stick ↓
+- Sprint mapped to Right Thumb-Stick ↑ - (Set Sprint to "Toggle" in the game settings for this to work)
+- Pulse Scan mapped to Right Thumb-Stick ↓ - (Aiming cancels the scan)
 ----
 
 
