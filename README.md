@@ -68,7 +68,8 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 ## Weapon Select Gesture
 1. Put your Right Hand over your Right Shoulder, as if to grab a weapon, to activate Weapon Select
 2. Once activated, you will see your HUD is attached to your head
-3. While activated use your Left Thumb-Stick to select a weapon 
+3. While activated use your Left Thumb-Stick to select a weapon
+   (Default weapon select still works as intended)
 ----
 
 
@@ -76,6 +77,8 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 ## Weapon Melee Gesture
 1. Swing your Right Controller in ANY direction
 2. Your knife will appear (in your Right Hand) and melee will trigger.
+  (Default melee (RT) still works as intended)
+
 ----
 
 
