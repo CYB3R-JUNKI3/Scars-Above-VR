@@ -79,7 +79,7 @@ All installation info is <a href="https://github.com/CYB3R-JUNKI3/Scars-Above-VR
 1. Swing your Right Controller in ANY direction
 2. Your knife will appear (in your Right Hand) and melee will trigger.
    
-  (Default melee (RT) still works as intended)
+   (Default melee (RT) still works as intended)
 
 ----
 
