@@ -998,7 +998,7 @@ uevr.sdk.callbacks.on_pre_engine_tick(function(engine, delta)
 		if is_scan == true and is_aim == 0 then
 			pawn.bFindCameraComponentWhenViewTarget = true
 			pawn.SpringArm.DesiredCameraSetup.TargetArmLength = 0
-            pawn.SpringArm.DesiredCameraSetup.SocketOffset.x = -0
+            		pawn.SpringArm.DesiredCameraSetup.SocketOffset.x = -0
 			pawn.SpringArm.DesiredCameraSetup.SocketOffset.y = 0
 			pawn.SpringArm.DesiredCameraSetup.SocketOffset.z = 4
 			pawn.SpringArm.DesiredCameraSetup.TargetOffset.y = 0
@@ -1009,7 +1009,7 @@ uevr.sdk.callbacks.on_pre_engine_tick(function(engine, delta)
 			pawn.Mesh.RelativeLocation.y = -10
 			pawn.Mesh.RelativeLocation.z = -48
 			pawn.SpringArm.DesiredCameraSetup.TargetArmLength = 300
-            pawn.SpringArm.DesiredCameraSetup.SocketOffset.x = 0
+            		pawn.SpringArm.DesiredCameraSetup.SocketOffset.x = 0
 			pawn.SpringArm.DesiredCameraSetup.SocketOffset.y = 0
 			pawn.SpringArm.DesiredCameraSetup.SocketOffset.z = -9.479
 			pawn.SpringArm.DesiredCameraSetup.TargetOffset.y = 0
@@ -1028,51 +1028,51 @@ uevr.sdk.callbacks.on_pre_engine_tick(function(engine, delta)
 		
 		if Playing == true and weap_sel == false then
 
-		local right_controller_index = params.vr.get_right_controller_index()
-		local right_controller_position = UEVR_Vector3f.new()
-		local right_controller_rotation = UEVR_Quaternionf.new()
-		params.vr.get_pose(right_controller_index, right_controller_position, right_controller_rotation)
-
-		offset[1] = right_controller_position.y - base_pos[1]
-		offset[2] = right_controller_position.z - base_pos[2]
-		adjusted_offset[2] = offset[2] + base_dif
-		if offset[1] <= -0.02 then
-			mDown = true
+			local right_controller_index = params.vr.get_right_controller_index()
+			local right_controller_position = UEVR_Vector3f.new()
+			local right_controller_rotation = UEVR_Quaternionf.new()
+			params.vr.get_pose(right_controller_index, right_controller_position, right_controller_rotation)
+	
+			offset[1] = right_controller_position.y - base_pos[1]
+			offset[2] = right_controller_position.z - base_pos[2]
+			adjusted_offset[2] = offset[2] + base_dif
+			if offset[1] <= -0.02 then
+				mDown = true
+			end
+			if adjusted_offset[2] <= -0.0112 then
+				mUp = true
+			end
+			if mDown == true and mUp == true and mDB == true then
+				mDownC = 0
+				mUpC = 0
+				mDown = false
+				mUp = false
+				mAttack = true
+			end
+			base_pos[1] = right_controller_position.y
+			base_pos[2] = right_controller_position.z
+			base_dif = 0
+			if offset[2] < 0 then
+				base_dif = offset[2]
+			end
+			if mUp == true then
+				mUpC = mUpC + 1
+			end
+			if mDown == true then
+				mDownC = mDownC + 1
+			end
+			if mDownC > 10 or mUpC > 10 then
+				mDownC = 0
+				mUpC = 0
+				mDown = false
+				mUp = false
+				mDB = true
+			end
+			
+			if mAttack == true then
+				mDB = false
+			end
 		end
-		if adjusted_offset[2] <= -0.0112 then
-			mUp = true
-		end
-		if mDown == true and mUp == true and mDB == true then
-			mDownC = 0
-			mUpC = 0
-			mDown = false
-			mUp = false
-			mAttack = true
-		end
-		base_pos[1] = right_controller_position.y
-		base_pos[2] = right_controller_position.z
-		base_dif = 0
-		if offset[2] < 0 then
-			base_dif = offset[2]
-		end
-		if mUp == true then
-			mUpC = mUpC + 1
-		end
-		if mDown == true then
-			mDownC = mDownC + 1
-		end
-		if mDownC > 10 or mUpC > 10 then
-			mDownC = 0
-			mUpC = 0
-			mDown = false
-			mUp = false
-			mDB = true
-		end
-		
-		if mAttack == true then
-			mDB = false
-		end
-	end
 	
 		
 	end
